@@ -87,7 +87,10 @@ dependencies {
     implementation(libs.androidx.navigation.runtime.ktx)
     implementation(libs.androidx.ui.tooling.preview.android)
     implementation(libs.androidx.navigation.compose)
+    implementation(libs.androidx.navigation.runtime.android)
     debugImplementation(compose.uiTooling)
+    implementation (libs.androidx.navigation.compose.v276)
+
 }
 
 compose.desktop {
